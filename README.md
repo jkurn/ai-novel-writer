@@ -1,13 +1,14 @@
 # AI Book Writer Continuation
 
-This project is an AI-powered application designed to assist authors in generating new chapters for their novels based on provided inputs.
+This project is an AI-powered application designed to assist authors in generating new chapters for their novels based on provided inputs, with a focus on Indonesian SES C and D markets.
 
 ## Features
 
 - Generate chapter content based on user inputs
 - Select and analyze chapter structure
-- Refine generated content
+- Refine generated content based on specific writing styles
 - Save generated chapters as Word documents
+- Tailored for Indonesian SES C and D market preferences
 
 ## Setup
 
@@ -26,12 +27,6 @@ This project is an AI-powered application designed to assist authors in generati
    export OPENAI_API_KEY='your-api-key-here'
    ```
 
-Alternatively, you can use the setup script as well:
-```
-chmod +x scripts/setup.sh
-./scripts/setup.sh
-```
-
 ## Usage
 
 1. Run the Streamlit app:
@@ -40,6 +35,11 @@ chmod +x scripts/setup.sh
    ```
 2. Open your web browser and navigate to the URL provided by Streamlit
 3. Use the interface to input your novel details and generate chapters
+
+## Project Structure
+
+- `style.txt`: Defines the writing style analysis
+- `market.txt`: Outlines the Fizzo Novel Framework for Indonesian SES C and D markets
 
 ## Testing
 
