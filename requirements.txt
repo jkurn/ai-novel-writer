@@ -1,0 +1,4 @@
+streamlit==1.22.0
+openai==1.10.0
+python-docx==0.8.11
+pytest==7.3.1
